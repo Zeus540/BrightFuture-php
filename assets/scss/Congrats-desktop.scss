@@ -1,0 +1,92 @@
+#congrats-boy-image{
+  width: 60%;
+  
+  @media (min-width:768px) and (max-width:1024px) {
+      width: 50%;
+      position: relative;
+      bottom: -35%;
+      right: -25%;
+  }
+  @media (min-width:1025px) and (max-width:1441px) {
+  width: 80%;
+  position: relative;
+  bottom: -35%;
+  }
+  @media (min-width:1441px) and (max-width:1921px) {
+      width: 80%;
+      position: relative;
+      left: -22%;
+      top: 35%;
+  }
+}
+
+#congrats-user-block{
+  background:#f3f2f3 ;
+  width: 100%;
+  border-radius: 20px ;
+  padding: 50px 140px 50px 140px;
+  position: relative;
+  text-align: center;
+  #congrats-img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  h1{
+    color:#f55485;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+    margin-top: 20%;
+  }
+  p{
+    line-height: 22px;
+    margin-bottom: 10%;
+  }
+  button{
+    background:#f55485;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+
+}
+
+#congrats-girl-image{
+  width: 60%;
+  left: 10%;
+  @media (min-width:768px) and (max-width:1024px) {
+      width: 50%;
+      position: relative;
+      bottom: -35%;
+  }
+  @media (min-width:1025px) and (max-width:1441px) {
+  width: 80%;
+  position: relative;
+  bottom: -35%;
+  }
+  @media (min-width:1441px) and (max-width:1921px) {
+      width: 80%;
+      position: relative;
+      left: 20%;
+      top: 35%;
+  }
+}
+
+#congrats-bottom-right-bg{
+  position: absolute;
+  right: 5%;
+  bottom: -10%;
+  width: 20%;
+  z-index: 1;
+  @media (min-width:1441px) and (max-width:1921px) {
+      position: absolute;
+      right: 5%;
+      bottom: -9%;
+      width: 16%;
+      z-index: 1;
+  }
+}

@@ -1,0 +1,27 @@
+.Header{
+  position: relative;
+ .Logo{
+    padding: 40px;
+    position: absolute;
+      #logo{
+          width: 75%;
+      }
+  }
+  .Banner-top{
+    text-align: center;
+
+  #Banner-top-center{
+      padding: 40px 0px 0px 0px;
+      width: 75%;
+  }
+}
+  #top-right-cloud{
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 20%;
+      @media (min-width:1441px) and (max-width:1921px) {
+          width: 17%;
+      }
+  }
+}

@@ -1,0 +1,1003 @@
+body {
+  background-image: url(../images/Group16.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+body html {
+  height: 100%;
+  width: 100%;
+}
+body p {
+  font-family: arial;
+  line-height: 22px;
+}
+body .Desktop {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+body .Mobile {
+  display: none;
+  background: #f3f2f3;
+}
+@media (max-width: 850px) {
+  body {
+    background: #f3f2f3;
+  }
+  body .Desktop {
+    display: none;
+  }
+}
+@media (max-width: 850px) {
+  body .Mobile {
+    display: block;
+    background-image: unset;
+  }
+}
+
+.Heading {
+  color: #f55485;
+}
+
+.Link {
+  color: #7cb9c4;
+}
+
+.Accent {
+  color: #fbc114;
+}
+
+.Mobile-heading {
+  font-size: 200%;
+}
+
+.Bold {
+  font-weight: bold;
+}
+
+.Decoration-none {
+  text-decoration: none;
+}
+
+.Text-center {
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.Flexed-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.Flexed-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.m-t-5 {
+  margin-top: 5%;
+}
+
+.m-t-10 {
+  margin-top: 10%;
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .m-t-10 {
+    margin-top: 7%;
+  }
+}
+
+.m-t-25 {
+  margin-top: 25%;
+}
+
+.m-l-20 {
+  margin-left: 55px;
+}
+@media (max-width: 320px) {
+  .m-l-20 {
+    margin-left: 25px;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+  .m-l-20 {
+    margin-left: 40px;
+  }
+}
+
+.Header {
+  position: relative;
+}
+.Header .Logo {
+  padding: 40px;
+  position: absolute;
+}
+.Header .Logo #logo {
+  width: 75%;
+}
+.Header .Banner-top {
+  text-align: center;
+}
+.Header .Banner-top #Banner-top-center {
+  padding: 40px 0px 0px 0px;
+  width: 75%;
+}
+.Header #top-right-cloud {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20%;
+}
+@media (min-width: 1441px) and (max-width: 1921px) {
+  .Header #top-right-cloud {
+    width: 17%;
+  }
+}
+
+.Mobi-header {
+  background: #84c6d1;
+  width: 100%;
+}
+.Mobi-header .Mobi-Banner {
+  padding: 30px;
+}
+
+.Intro-Text {
+  position: relative;
+  color: white;
+  width: 100%;
+}
+.Intro-Text #intro-Text {
+  width: 50%;
+  margin: 0 auto;
+  padding: 40px 0px 0px 0px;
+  text-align: center;
+}
+.Intro-Text #intro-Text a {
+  color: white;
+}
+.Intro-Text #intro-Text span {
+  text-align: center;
+  display: block;
+}
+.Intro-Text #middle-left-cloud {
+  position: absolute;
+  left: 0;
+  width: 13%;
+}
+@media (min-width: 1441px) and (max-width: 1921px) {
+  .Intro-Text #middle-left-cloud {
+    width: 11%;
+  }
+}
+
+.Login {
+  padding-top: 40px;
+  justify-content: center;
+  padding-bottom: 18%;
+  position: relative;
+}
+.Login #boy-image {
+  width: 60%;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Login #boy-image {
+    width: 50%;
+    position: relative;
+    bottom: -10%;
+    right: -25%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1441px) {
+  .Login #boy-image {
+    width: 80%;
+    position: relative;
+    bottom: -18%;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1921px) {
+  .Login #boy-image {
+    width: 80%;
+    position: relative;
+    left: -22%;
+    top: 15%;
+  }
+}
+.Login .Rounded {
+  width: 50%;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Login .Rounded {
+    width: 55%;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1921px) {
+  .Login .Rounded {
+    width: 40%;
+  }
+}
+.Login .Rounded #left-block {
+  background: #faf8f9;
+  width: 50%;
+  position: relative;
+  border-radius: 20px 0px 0px 20px;
+  padding: 20px 50px 30px 50px;
+}
+.Login .Rounded #left-block a {
+  text-decoration: none;
+  color: #fbc112;
+}
+.Login .Rounded #left-block p {
+  padding: 10px 0px 10px 0px;
+}
+.Login .Rounded #left-block button {
+  margin-top: 10%;
+  background: #faf8f9;
+  position: absolute;
+  bottom: 30px;
+  width: 40%;
+  padding: 9px;
+  border: 2px #fbc112 solid;
+  border-radius: 5px;
+  width: auto;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.Login .Rounded #right-block {
+  background: #f3f2f3;
+  width: 50%;
+  border-radius: 0px 20px 20px 0px;
+  padding: 20px 50px 30px 50px;
+}
+.Login .Rounded #right-block p {
+  padding: 10px 0px 10px 0px;
+}
+.Login .Rounded #right-block label {
+  padding-top: 20px;
+  color: #3ba1b1;
+  font-family: arial;
+}
+.Login .Rounded #right-block input {
+  border: none;
+  background: #faf8f9;
+  border-radius: 2px;
+  min-height: 40px;
+  margin-top: 5px;
+}
+.Login .Rounded #right-block sub {
+  padding-top: 10px;
+  font-family: arial;
+}
+.Login .Rounded #right-block sub a {
+  color: #3ba1b1;
+}
+.Login .Rounded #right-block button {
+  margin-top: 10%;
+  background: #fbc112;
+  color: white;
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.Login #girl-image {
+  width: 60%;
+  left: 10%;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Login #girl-image {
+    width: 50%;
+    position: relative;
+    bottom: -10%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1441px) {
+  .Login #girl-image {
+    width: 80%;
+    position: relative;
+    bottom: -20%;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1921px) {
+  .Login #girl-image {
+    width: 80%;
+    position: relative;
+    left: 20%;
+    top: 15%;
+  }
+}
+.Login #bottom-right-bg {
+  position: absolute;
+  right: 5%;
+  bottom: -10%;
+  width: 20%;
+  z-index: 1;
+}
+@media (min-width: 1441px) and (max-width: 1921px) {
+  .Login #bottom-right-bg {
+    position: absolute;
+    right: 5%;
+    bottom: -10%;
+    width: 18%;
+    z-index: 1;
+  }
+}
+
+.Mobi-tabs {
+  background: #e8e7e8;
+  padding: 0px;
+  justify-content: center;
+}
+.Mobi-tabs button {
+  width: 50%;
+  padding: 0px;
+  border: 0px;
+}
+.Mobi-tabs .Tab1 {
+  min-width: 50%;
+  padding: 20px 0px 20px 0px;
+}
+.Mobi-tabs .Tab1 h4 {
+  text-align: left;
+}
+.Mobi-tabs .Tab2 {
+  text-align: center;
+  min-width: 50%;
+  padding: 20px 0px 20px 0px;
+}
+
+.Mobi-tabs-2 {
+  background: #f3f2f3;
+  padding: 20px 0px 20px 0px;
+}
+.Mobi-tabs-2 .Tab3 {
+  min-width: 50%;
+}
+.Mobi-tabs-2 .Tab4 {
+  min-width: 50%;
+  color: #fbc112;
+  text-align: center;
+}
+
+.Content-box {
+  background: #f3f2f3;
+  margin-right: 55px;
+  margin-left: 55px;
+  padding-bottom: 10%;
+}
+.Content-box p {
+  font-size: 13px;
+  line-height: 15px;
+}
+@media (max-width: 320px) {
+  .Content-box {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+  .Content-box {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+.Content-box label {
+  padding-top: 20px;
+  color: #3ba1b1;
+  font-family: arial;
+}
+.Content-box input {
+  border: none;
+  background: #faf8f9;
+  border-radius: 2px;
+  min-height: 30px;
+  margin-top: 5px;
+}
+.Content-box button {
+  background: #fbc112;
+  color: white;
+  padding: 9px 60px;
+  border: none;
+  border-radius: 5px;
+  white-space: nowrap;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.Content-box sub {
+  margin-top: 10%;
+  font-family: arial;
+  text-align: center;
+}
+.Content-box sub a {
+  color: #3ba1b1;
+}
+
+.Mobi-tabs {
+  background: #e8e7e8;
+  padding: 0px;
+  justify-content: center;
+}
+.Mobi-tabs button {
+  width: 50%;
+  padding: 0px;
+  border: 0px;
+}
+.Mobi-tabs .Tab1 {
+  min-width: 50%;
+  padding: 20px 0px 20px 0px;
+}
+.Mobi-tabs .Tab1 h4 {
+  text-align: left;
+}
+.Mobi-tabs .Tab2 {
+  text-align: center;
+  min-width: 50%;
+  padding: 20px 0px 20px 0px;
+}
+
+.Content-box {
+  background: #f3f2f3;
+  margin-right: 55px;
+  margin-left: 55px;
+  padding-bottom: 10%;
+}
+.Content-box p {
+  font-size: 13px;
+  line-height: 22px;
+}
+@media (max-width: 320px) {
+  .Content-box {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+  .Content-box {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+#Create-profile-boy-image {
+  width: 60%;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #Create-profile-boy-image {
+    width: 50%;
+    position: relative;
+    bottom: -35%;
+    right: -25%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1441px) {
+  #Create-profile-boy-image {
+    width: 80%;
+    position: relative;
+    bottom: -35%;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1921px) {
+  #Create-profile-boy-image {
+    width: 80%;
+    position: relative;
+    left: -22%;
+    top: 35%;
+  }
+}
+
+#Create-profile-user-block {
+  background: #f3f2f3;
+  width: 100%;
+  border-radius: 20px;
+  padding: 20px 140px 30px 140px;
+  position: relative;
+  /*style the arrow inside the select element:*/
+  /*point the arrow upwards when the select box is open (active):*/
+  /*style the items (options), including the selected item:*/
+  /*style items (options):*/
+  /*hide the items when the select box is closed:*/
+}
+#Create-profile-user-block .Row {
+  padding: 0px;
+  position: absolute;
+  left: 0px;
+  padding: 10px 0px 10px 25px;
+  color: #fbc112;
+}
+#Create-profile-user-block a {
+  color: #fbc112;
+  text-decoration: none;
+}
+#Create-profile-user-block h1 {
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  font-size: 30px;
+  color: #ff7cac;
+}
+#Create-profile-user-block p {
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+#Create-profile-user-block label {
+  padding-top: 20px;
+  color: #3ba1b1;
+  font-family: arial;
+}
+#Create-profile-user-block select {
+  color: #3ba1b1;
+  font-family: arial;
+}
+#Create-profile-user-block input {
+  border: none;
+  background: #faf8f9;
+  border-radius: 2px;
+  margin-top: 10px;
+  padding: 10px 10px;
+}
+#Create-profile-user-block .custom-select {
+  margin-top: 10px;
+  position: relative;
+  font-family: Arial;
+}
+#Create-profile-user-block .custom-select select {
+  display: none;
+  /*hide original SELECT element:*/
+}
+#Create-profile-user-block .select-selected {
+  background-color: #faf8f9;
+}
+#Create-profile-user-block .select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #969595 transparent transparent transparent;
+}
+#Create-profile-user-block .select-selected.select-arrow-active:after {
+  border-color: transparent transparent #969595 transparent;
+  top: 7px;
+}
+#Create-profile-user-block .select-items div, #Create-profile-user-block .select-selected {
+  color: black;
+  padding: 10px 10px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+#Create-profile-user-block .select-items {
+  position: absolute;
+  background-color: #faf8f9;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+#Create-profile-user-block .select-hide {
+  display: none;
+}
+#Create-profile-user-block .select-items div:hover, #Create-profile-user-block .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#Create-profile-user-block sub {
+  padding-top: 5px;
+  font-family: arial;
+}
+#Create-profile-user-block sub a {
+  color: #3ba1b1;
+}
+#Create-profile-user-block button {
+  background: #fbc112;
+  color: white;
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+#Create-profile-girl-image {
+  width: 60%;
+  left: 10%;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #Create-profile-girl-image {
+    width: 50%;
+    position: relative;
+    bottom: -35%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1441px) {
+  #Create-profile-girl-image {
+    width: 80%;
+    position: relative;
+    bottom: -35%;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1921px) {
+  #Create-profile-girl-image {
+    width: 80%;
+    position: relative;
+    left: 20%;
+    top: 35%;
+  }
+}
+
+#Create-profile-bottom-right-bg {
+  position: absolute;
+  right: 5%;
+  bottom: -6%;
+  width: 20%;
+  z-index: 1;
+}
+@media (min-width: 1441px) and (max-width: 1921px) {
+  #Create-profile-bottom-right-bg {
+    position: absolute;
+    right: 5%;
+    bottom: -6%;
+    width: 16%;
+    z-index: 1;
+  }
+}
+
+#Create-profile-user-block-mobile {
+  background: #f3f2f3;
+  width: 100%;
+  border-radius: 20px;
+  position: relative;
+  /*style the arrow inside the select element:*/
+  /*point the arrow upwards when the select box is open (active):*/
+  /*style the items (options), including the selected item:*/
+  /*style items (options):*/
+  /*hide the items when the select box is closed:*/
+}
+#Create-profile-user-block-mobile .Row {
+  padding: 0px;
+  position: absolute;
+  left: 0px;
+  padding: 10px 0px 10px 25px;
+  color: #fbc112;
+}
+#Create-profile-user-block-mobile a {
+  color: #fbc112;
+  text-decoration: none;
+}
+#Create-profile-user-block-mobile h1 {
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  font-size: 30px;
+  color: #ff7cac;
+}
+#Create-profile-user-block-mobile p {
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+#Create-profile-user-block-mobile label {
+  padding-top: 20px;
+  color: #3ba1b1;
+  font-family: arial;
+}
+#Create-profile-user-block-mobile input {
+  border: none;
+  background: #faf8f9;
+  border-radius: 2px;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+#Create-profile-user-block-mobile .custom-select {
+  margin-top: 10px;
+  position: relative;
+  font-family: Arial;
+}
+#Create-profile-user-block-mobile .custom-select select {
+  display: none;
+  /*hide original SELECT element:*/
+}
+#Create-profile-user-block-mobile .select-selected {
+  background-color: #faf8f9;
+}
+#Create-profile-user-block-mobile .select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #969595 transparent transparent transparent;
+}
+#Create-profile-user-block-mobile .select-selected.select-arrow-active:after {
+  border-color: transparent transparent #969595 transparent;
+  top: 7px;
+}
+#Create-profile-user-block-mobile .select-items div, #Create-profile-user-block-mobile .select-selected {
+  color: black;
+  padding: 10px 10px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+#Create-profile-user-block-mobile .select-items {
+  position: absolute;
+  background-color: #faf8f9;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+#Create-profile-user-block-mobile .select-hide {
+  display: none;
+}
+#Create-profile-user-block-mobile .select-items div:hover, #Create-profile-user-block-mobile .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#Create-profile-user-block-mobile sub {
+  padding-top: 5px;
+  font-family: arial;
+}
+#Create-profile-user-block-mobile sub a {
+  color: #3ba1b1;
+}
+#Create-profile-user-block-mobile button {
+  background: #fbc112;
+  color: white;
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+#forgot-password-boy-image {
+  width: 60%;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #forgot-password-boy-image {
+    width: 50%;
+    position: relative;
+    bottom: -35%;
+    right: -25%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1441px) {
+  #forgot-password-boy-image {
+    width: 80%;
+    position: relative;
+    bottom: -35%;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1921px) {
+  #forgot-password-boy-image {
+    width: 80%;
+    position: relative;
+    left: -22%;
+    top: 15%;
+  }
+}
+
+#forgot-password-user-block {
+  background: #f3f2f3;
+  width: 100%;
+  border-radius: 20px;
+  padding: 50px 140px 50px 140px;
+  position: relative;
+  text-align: center;
+}
+#forgot-password-user-block h1 {
+  color: #72716e;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 35px;
+}
+#forgot-password-user-block button {
+  background: #f55485;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+#forgot-password-girl-image {
+  width: 60%;
+  left: 10%;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #forgot-password-girl-image {
+    width: 50%;
+    position: relative;
+    bottom: -35%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1441px) {
+  #forgot-password-girl-image {
+    width: 80%;
+    position: relative;
+    bottom: -35%;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1921px) {
+  #forgot-password-girl-image {
+    width: 80%;
+    position: relative;
+    left: 20%;
+    top: 35%;
+  }
+}
+
+#forgot-password-bottom-right-bg {
+  position: absolute;
+  right: 5%;
+  bottom: -6%;
+  width: 20%;
+  z-index: 1;
+}
+@media (min-width: 1441px) and (max-width: 1921px) {
+  #forgot-password-bottom-right-bg {
+    position: absolute;
+    right: 5%;
+    bottom: -6%;
+    width: 16%;
+    z-index: 1;
+  }
+}
+
+#forgot-password-user-block-mobile {
+  background: #f3f2f3;
+  width: 100%;
+}
+#forgot-password-user-block-mobile .password-user-mobile-heading {
+  font-size: 20px;
+}
+
+#congrats-boy-image {
+  width: 60%;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #congrats-boy-image {
+    width: 50%;
+    position: relative;
+    bottom: -35%;
+    right: -25%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1441px) {
+  #congrats-boy-image {
+    width: 80%;
+    position: relative;
+    bottom: -35%;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1921px) {
+  #congrats-boy-image {
+    width: 80%;
+    position: relative;
+    left: -22%;
+    top: 35%;
+  }
+}
+
+#congrats-user-block {
+  background: #f3f2f3;
+  width: 100%;
+  border-radius: 20px;
+  padding: 50px 140px 50px 140px;
+  position: relative;
+  text-align: center;
+}
+#congrats-user-block #congrats-img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#congrats-user-block h1 {
+  color: #f55485;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 35px;
+  margin-top: 20%;
+}
+#congrats-user-block p {
+  line-height: 22px;
+  margin-bottom: 10%;
+}
+#congrats-user-block button {
+  background: #f55485;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+#congrats-girl-image {
+  width: 60%;
+  left: 10%;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #congrats-girl-image {
+    width: 50%;
+    position: relative;
+    bottom: -35%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1441px) {
+  #congrats-girl-image {
+    width: 80%;
+    position: relative;
+    bottom: -35%;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1921px) {
+  #congrats-girl-image {
+    width: 80%;
+    position: relative;
+    left: 20%;
+    top: 35%;
+  }
+}
+
+#congrats-bottom-right-bg {
+  position: absolute;
+  right: 5%;
+  bottom: -10%;
+  width: 20%;
+  z-index: 1;
+}
+@media (min-width: 1441px) and (max-width: 1921px) {
+  #congrats-bottom-right-bg {
+    position: absolute;
+    right: 5%;
+    bottom: -9%;
+    width: 16%;
+    z-index: 1;
+  }
+}
+
+.Congrats-content-box {
+  margin: 0;
+  padding: 0;
+}
+.Congrats-content-box .Congrats-img-mobile {
+  margin-bottom: 33%;
+}
+.Congrats-content-box .Congrats-img-mobile img {
+  position: absolute;
+}
+.Congrats-content-box #congrats-intro-text {
+  padding-top: 5%;
+}
+.Congrats-content-box #congrats-intro-text2 {
+  padding: 25px 0px 1px 0px;
+}
+.Congrats-content-box .Align-center {
+  justify-content: center;
+  margin: 0 auto;
+}
+.Congrats-content-box #back {
+  padding: 25px 0px 1px 0px;
+}
+
+.Footer {
+  position: relative;
+  min-height: 70px;
+  background: #f4f5f9;
+  z-index: 2;
+}
+
+/*# sourceMappingURL=main.css.map */

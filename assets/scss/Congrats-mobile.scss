@@ -1,0 +1,24 @@
+.Congrats-content-box{
+  margin: 0;
+  padding: 0;
+  .Congrats-img-mobile{
+    margin-bottom: 33%;
+   img{
+    position: absolute;
+   }
+  
+  }
+  #congrats-intro-text{
+    padding-top: 5%;
+  }
+  #congrats-intro-text2{
+    padding: 25px 0px 1px 0px;
+  }
+  .Align-center{
+    justify-content: center;
+    margin: 0 auto;
+  }
+  #back{
+    padding: 25px 0px 1px 0px;
+  }
+}

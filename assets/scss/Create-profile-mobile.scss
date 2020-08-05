@@ -1,0 +1,119 @@
+#Create-profile-user-block-mobile{
+    background:#f3f2f3 ;
+    width: 100%;
+    border-radius: 20px ;
+
+    position: relative;
+    .Row{
+        padding: 0px;
+        position: absolute;
+        left: 0px;
+        padding:10px 0px 10px 25px;
+        color: #fbc112;
+    }
+    a{
+      color: #fbc112;
+      text-decoration: none;
+    }
+    h1{
+        padding:10px 0px 10px 0px;
+        text-align: center;
+        font-size:30px;
+        color: #ff7cac;
+    }
+    p{
+        padding:10px 0px 10px 0px;
+        text-align: center;
+    }
+    label{
+        padding-top: 20px;
+        color: #3ba1b1;
+        font-family:arial;
+    }
+   input{
+       border: none;
+       background: #faf8f9;
+       border-radius: 2px;
+       margin-top: 10px;
+       padding: 5px 10px;
+
+   }
+   .custom-select {
+    margin-top: 10px;
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element:*/
+  }
+  
+  .select-selected {
+    background-color: #faf8f9;
+  }
+  
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #969595 transparent transparent transparent;
+  }
+  
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #969595 transparent;
+    top: 7px;
+  }
+  
+  /*style the items (options), including the selected item:*/
+  .select-items div,.select-selected {
+    color: black;
+    padding: 10px 10px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: #faf8f9;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+   
+   sub{
+        padding-top: 5px;
+        font-family:arial;
+    a{
+        color: #3ba1b1;
+    }
+    }
+    button{
+        background: #fbc112;
+        color: white;
+        width: 60%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+}

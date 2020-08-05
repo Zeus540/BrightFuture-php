@@ -1,0 +1,62 @@
+$accent-color:#fbc114;
+$heading: #f55485;
+$link: #7cb9c4;
+$mobile-heading: 200%;
+
+.Heading{
+    color: $heading;
+}
+.Link{
+    color: $link;
+}
+.Accent{
+    color: $accent-color;
+}
+.Mobile-heading{
+    font-size: $mobile-heading;
+}
+.Bold{
+    font-weight: bold;
+}
+.Decoration-none{
+    text-decoration: none;
+}
+.Text-center{
+        text-align: center;
+}
+
+.center{
+       display: block;
+       margin: 0 auto;
+}
+.Flexed-row{
+    display: flex;
+    flex-direction: row;
+}
+.Flexed-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.m-t-5{
+    margin-top: 5%;
+}
+.m-t-10{
+    margin-top: 10%;
+    @media(min-width:426px) and (max-width:768px){
+        margin-top: 7%;
+    }
+}
+.m-t-25{
+    margin-top: 25%;
+}
+.m-l-20{
+        margin-left: 55px;
+        @media(max-width:320px){
+            margin-left: 25px;
+        }
+        @media(min-width:321px) and (max-width:375px){
+            margin-left: 40px;
+        }
+}
+

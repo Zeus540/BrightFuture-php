@@ -1,0 +1,56 @@
+body{ 
+   background-image: url(../images/Group16.png);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   margin: 0px;
+   padding: 0px;
+    height: 100%;
+    width: 100%;
+    html{
+        height: 100%;
+        width: 100%;
+    }
+    p{
+        font-family: arial;
+        line-height: 22px;
+    }
+    
+   .Desktop{
+        display:block;
+         height: 100%;
+        width: 100%;
+    }
+    .Mobile{
+        display:none;
+        background: #f3f2f3;
+    }
+   @media (max-width:850px){
+       background: #f3f2f3;
+    .Desktop{
+        display:none;
+    }
+   }
+
+   @media (max-width:850px){
+    .Mobile{
+        display:block;
+        background-image: unset;
+    }
+    }
+
+}
+
+@import "./variables.scss";
+@import "./mobile.scss";
+@import "./Desktop-header.scss";
+@import "./Mobile-header.scss";
+@import "./Login-desktop.scss";
+@import "./Login-mobile.scss";
+@import "./New-user.scss";
+@import "./Create-profile-desktop.scss";
+@import "./Create-profile-mobile.scss";
+@import "./Forgot-password-desktop.scss";
+@import "./Forgot-password-mobile.scss";
+@import "./Congrats-desktop.scss";
+@import "./Congrats-mobile.scss";
+@import "./Desktop-footer.scss";

@@ -1,0 +1,178 @@
+.Intro-Text{
+    position: relative;
+   color: white;
+    width: 100%;
+    #intro-Text{
+        width: 50%;
+        margin: 0 auto;
+        padding: 40px 0px 0px 0px;
+        text-align: center;
+        a{
+            color: white;
+        }
+        span{
+            text-align: center;
+            display: block;
+        }
+       
+    }
+    #middle-left-cloud{
+        position: absolute;
+        left: 0;
+        width: 13%;
+        @media (min-width:1441px) and (max-width:1921px) {
+            width: 11%;
+        }
+    }
+   
+}
+
+.Login{
+    padding-top: 40px;
+    justify-content: center;
+    padding-bottom: 18%;
+    position: relative;
+    #boy-image{
+        width: 60%;
+        
+        @media (min-width:768px) and (max-width:1024px) {
+            width: 50%;
+            position: relative;
+            bottom: -10%;
+            right: -25%;
+        }
+        @media (min-width:1025px) and (max-width:1441px) {
+        width: 80%;
+        position: relative;
+        bottom: -18%;
+        }
+        @media (min-width:1441px) and (max-width:1921px) {
+            width: 80%;
+            position: relative;
+            left: -22%;
+            top: 15%;
+        }
+    }
+    
+  
+
+     .Rounded{
+        width: 50%;
+        @media (min-width:768px) and (max-width:1024px) {
+            width: 55%;
+        }
+        @media (min-width:1441px) and (max-width:1921px) {
+            width: 40%;
+        }
+        
+      #left-block{
+          background:#faf8f9 ;
+          width: 50%;
+          position: relative;
+          border-radius: 20px 0px 0px 20px;
+          padding: 20px 50px 30px 50px;
+          a{
+            text-decoration:none;
+            color: #fbc112;
+          }
+          p{
+              padding:10px 0px 10px 0px
+          }
+          button{
+            margin-top: 10%;
+            background: #faf8f9;
+            position: absolute;
+            bottom: 30px;
+            width: 40%;
+            padding: 9px;
+            border: 2px #fbc112 solid;
+            border-radius: 5px;
+            width: auto;
+            white-space: nowrap;
+            text-decoration: none;
+           
+        }
+      }
+
+      #right-block{
+        background:#f3f2f3 ;
+        width: 50%;
+        border-radius: 0px 20px 20px 0px;
+        padding: 20px 50px 30px 50px;
+        p{
+            padding:10px 0px 10px 0px
+        }
+        label{
+            padding-top: 20px;
+            color: #3ba1b1;
+            font-family:arial;
+        }
+       input{
+           border: none;
+           background: #faf8f9;
+           border-radius: 2px;
+           min-height: 40px;
+           margin-top: 5px;
+
+       }
+       sub{
+            padding-top: 10px;
+            font-family:arial;
+        a{
+            color: #3ba1b1;
+        }
+        }
+        button{
+            margin-top: 10%;
+            background: #fbc112;
+            color: white;
+            width: 60%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+
+    }
+
+    #girl-image{
+        width: 60%;
+        left: 10%;
+        @media (min-width:768px) and (max-width:1024px) {
+            width: 50%;
+            position: relative;
+            bottom: -10%;
+        }
+        @media (min-width:1025px) and (max-width:1441px) {
+        width: 80%;
+        position: relative;
+        bottom: -20%;
+        }
+        @media (min-width:1441px) and (max-width:1921px) {
+            width: 80%;
+            position: relative;
+            left: 20%;
+            top: 15%;
+        }
+    }
+  
+    #bottom-right-bg{
+        position: absolute;
+        right: 5%;
+        bottom: -10%;
+        width: 20%;
+        z-index: 1;
+        @media (min-width:1441px) and (max-width:1921px) {
+            position: absolute;
+            right: 5%;
+            bottom: -10%;
+            width: 18%;
+            z-index: 1;
+        }
+    }
+
+}
+
+
+
+

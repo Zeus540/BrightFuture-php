@@ -1,0 +1,83 @@
+.Mobi-tabs{
+    background:#e8e7e8;
+    padding: 0px;
+    justify-content: center;
+    button{
+        width:50%;
+        padding: 0px;
+        border: 0px;
+    }
+    .Tab1{
+        min-width: 50%;
+        padding: 20px 0px 20px 0px;
+        h4{
+            text-align: left;
+        }
+    }
+    .Tab2{
+        text-align: center;
+        min-width: 50%;
+        padding: 20px 0px 20px 0px;
+    }
+}
+
+.Mobi-tabs-2{
+        background:#f3f2f3;
+        padding: 20px 0px 20px 0px;
+        .Tab3{
+            min-width: 50%;
+        }
+        .Tab4{
+            min-width: 50%;
+            color:#fbc112;
+            text-align: center;
+        }
+}
+
+.Content-box{
+    background: #f3f2f3;
+   
+    margin-right: 55px;
+    margin-left: 55px;
+    padding-bottom: 10%;
+    p{font-size: 13px;
+    line-height: 15px;}
+        @media(max-width:320px){
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+            @media(min-width:321px) and (max-width:375px){
+                margin-left: 40px;
+                margin-right: 40px;
+            }
+                label{
+                    padding-top: 20px;
+                    color: #3ba1b1;
+                    font-family:arial;
+                    }
+                input{
+                    border: none;
+                    background: #faf8f9;
+                    border-radius: 2px;
+                    min-height: 30px;
+                    margin-top: 5px;
+                    }
+                button{
+                    background: #fbc112;
+                    color: white;
+                    padding: 9px 60px;
+                    border: none;
+                    border-radius: 5px;
+                    white-space: nowrap;
+                    margin: 0 auto;
+                    margin-top: 10%;
+                    }
+                sub{
+                    margin-top: 10%;
+                    font-family:arial;
+                    text-align: center;
+                        a{
+                            color: #3ba1b1;
+                        }
+                    }
+}
