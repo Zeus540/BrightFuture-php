@@ -2,7 +2,7 @@
 echo '
 <div class="Content-box Flexed-column ">
   <div class="Row  m-t-10 center">
-        <h4 class=""><strong><img src="../../../assets/images/back.png" alt="">&nbsp;<a class="Accent Decoration-none Bold" href="../../../index.php">Back to Login</a></strong></h4>
+        <h4 class=""><strong><img src="../../../assets/images/back.png" alt="">&nbsp;<a class="Accent Decoration-none Bold" href="../../../views/index.php">Back to Login</a></strong></h4>
   </div>
 <section id="forgot-password-user-block-mobile">
     <h1 class="Text-center heading password-user-mobile-heading m-t-10 Bold">Password reset</h1>

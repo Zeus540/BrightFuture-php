@@ -13,7 +13,7 @@ echo '
         <label for="Email">Password</label>
         <input type="Password" name="Password" id="Password" placeholder="This field is required" required>
         <button type="submit">Log in</button>
-        <sub><a href="/forgotpassword">Forgot Password?</a></sub>
+        <sub><a href="../../../forgotpassword.php">Forgot Password?</a></sub>
     </form>
 </section>
 </div>

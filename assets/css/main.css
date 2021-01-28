@@ -118,15 +118,11 @@ body .Mobile {
 }
 .Header .Logo {
   padding: 40px;
-  position: absolute;
 }
 .Header .Logo #logo {
   width: 75%;
 }
-.Header .Banner-top {
-  text-align: center;
-}
-.Header .Banner-top #Banner-top-center {
+.Header #Banner-top-center {
   padding: 40px 0px 0px 0px;
   width: 75%;
 }
@@ -156,7 +152,7 @@ body .Mobile {
   width: 100%;
 }
 .Intro-Text #intro-Text {
-  width: 50%;
+  width: 65%;
   margin: 0 auto;
   padding: 40px 0px 0px 0px;
   text-align: center;
